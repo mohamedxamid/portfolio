@@ -24,6 +24,11 @@ html {
     /* Outline styles */
 }
 
+a {
+    color: #0000ee;
+    text-decoration: none;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -86,7 +91,7 @@ select:-webkit-autofill:focus {
 /* CONTAINER */
 .container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 800px;
     padding-left: 50px;
     padding-right: 50px;
     margin-left: auto;
@@ -97,6 +102,40 @@ select:-webkit-autofill:focus {
 /* MAIN CONTENT */
 .main-content {
     flex-grow: 1;
+}
+
+
+/* SITE-HEADER */
+.site-header {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.site-header__container {
+    display: flex;
+    align-items: center;
+}
+
+.site-header__img {
+    width: 150px;
+    height: 150px;
+    margin-right: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.site-header__info {
+    flex-grow: 1;
+}
+
+.site-header__title {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.site-header__description {
+    margin-top: 0;
+    margin-bottom: 15px;
 }
 
 
