@@ -150,3 +150,35 @@ only screen and (                min-resolution: 2dppx) {
 /* Retina-specific stuff here */
 
 }
+
+@media only screen and (max-width: 600px) {
+    .site-header__container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .site-header__img {
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .container {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .site-header__container {
+        align-items: center;
+    }
+
+    .site-header__info {
+        text-align: center;
+    }
+
+    .projects__list {
+        padding-left: 0;
+        list-style: none;
+    }
+}
